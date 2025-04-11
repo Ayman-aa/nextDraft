@@ -14,9 +14,15 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: "Pulse - Modern Email Service",
-  description: "A next-generation email service platform",
-  generator: 'v0.dev'
+  title: "nextDraft - Modern Email Service theme",
+  description: "A next-generation email service platform theme",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/nextDraftico.svg", type: "image/svg+xml" },
+    ],
+    apple: { url: "/apple-icon.png", sizes: "180x180" },
+  }
 }
 
 export default function RootLayout({
